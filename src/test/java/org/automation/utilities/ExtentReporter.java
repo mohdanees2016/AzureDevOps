@@ -10,7 +10,7 @@ public class ExtentReporter {
 	
 	public static ExtentReports generalExtentReport() {
 		ExtentReports extentReport=new ExtentReports();
-		File extentReportFile = new File(System.getProperty("user.dir")+ "\\test-output\\extentReports\\extentAzureDevOps.html");
+		File extentReportFile = new File(System.getProperty("user.dir")+ "\\build\\extentAzureDevOps.html");
 		ExtentSparkReporter sparkReporter = new ExtentSparkReporter(extentReportFile);
 		sparkReporter.config().setTheme(Theme.DARK);
 		sparkReporter.config().setReportName("Azure DevOps Test Automation Report");
