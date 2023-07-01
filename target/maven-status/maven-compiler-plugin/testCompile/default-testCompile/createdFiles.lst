@@ -1,4 +1,8 @@
+org\automation\testcases\Login05Test.class
+org\automation\utilities\ExtentReporter.class
 org\automation\testcases\Login03Test.class
+org\automation\utilities\ReadListeners.class
 org\automation\testcases\Login02Test.class
+org\automation\testcases\Login06Test.class
 org\automation\testcases\Login01Test.class
 org\automation\testcases\Login04Test.class

@@ -1,4 +1,0 @@
-# Created at 2021-10-16T20:19:33.031
-Boot Manifest-JAR contains absolute paths in classpath 'D:\Workspaces\CICIProject\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-

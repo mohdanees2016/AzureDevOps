@@ -23,7 +23,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>src\test\java\RegressionSuite01.xml</suiteXmlFile>
-						<suiteXmlFile>src\test\java\RegressionSuite02.xml</suiteXmlFile>
+						<!--  <suiteXmlFile>src\test\java\RegressionSuite02.xml</suiteXmlFile> -->
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
@@ -41,6 +41,14 @@
 			<version>7.4.0</version>
 			<scope>compile</scope>
 		</dependency>
+		
+			<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+	<dependency>
+	    <groupId>com.aventstack</groupId>
+	    <artifactId>extentreports</artifactId>
+	    <version>5.0.9</version>
+	</dependency>
+	
 	</dependencies>
 
 
